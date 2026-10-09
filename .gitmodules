@@ -1,0 +1,30 @@
+[submodule "diesis-py"]
+	path = diesis-py
+	url = https://github.com/0xDiesis/diesis-py.git
+[submodule "diesis-js"]
+	path = diesis-js
+	url = https://github.com/0xDiesis/diesis-js.git
+[submodule "diesis-rs"]
+	path = diesis-rs
+	url = https://github.com/0xDiesis/diesis-rs.git
+[submodule "diesis-go"]
+	path = diesis-go
+	url = https://github.com/0xDiesis/diesis-go.git
+[submodule "diesis-swift"]
+	path = diesis-swift
+	url = https://github.com/0xDiesis/diesis-swift.git
+[submodule "diesis-kotlin"]
+	path = diesis-kotlin
+	url = https://github.com/0xDiesis/diesis-kotlin.git
+[submodule "diesis-fsharp"]
+	path = diesis-fsharp
+	url = https://github.com/0xDiesis/diesis-fsharp.git
+[submodule "diesis-ocaml"]
+	path = diesis-ocaml
+	url = https://github.com/0xDiesis/diesis-ocaml.git
+[submodule "diesis-q"]
+	path = diesis-q
+	url = https://github.com/0xDiesis/diesis-q.git
+[submodule "diesis-sol"]
+	path = diesis-sol
+	url = https://github.com/0xDiesis/diesis-sol.git
