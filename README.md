@@ -80,16 +80,19 @@ To initialize only the SDK you need in an existing checkout:
 git submodule update --init --recursive -- diesis-js
 ```
 
-Applications can install an SDK directly from its repository. Replace `<commit>`
-with an immutable revision and follow that SDK's guide for dependencies and setup.
-Use authenticated Git access where the repository requires it.
+Applications can install an SDK directly from its repository. The JavaScript and
+Python commands below select existing immutable release revisions; the newer
+local Names/error helpers require their reviewed prebuilt tarball or wheel until
+publication. Use Node.js 24.16.0 or newer and pnpm 12.6.0 for JavaScript. Follow each
+SDK's toolchain guide and use authenticated Git access where required. The
+Solidity placeholder must be replaced with its independently selected revision.
 
 ```sh
 # JavaScript and TypeScript
-pnpm add 'git+https://github.com/0xDiesis/diesis-js.git#<commit>' viem
+pnpm add 'git+https://github.com/0xDiesis/diesis-js.git#8549f0c72da8a49658dca6d8ad10b247bc53f1a3' viem
 
 # Python
-python -m pip install 'diesis-sdk @ git+https://github.com/0xDiesis/diesis-py.git@<commit>'
+python -m pip install 'diesis-sdk @ git+https://github.com/0xDiesis/diesis-py.git@943800510f6c5ab2e862001c81e6dd3ebe0816cc'
 
 # Solidity with Foundry
 forge install '0xDiesis/diesis-sol@<commit>'
@@ -98,6 +101,16 @@ forge install '0xDiesis/diesis-sol@<commit>'
 For Solidity, add `diesis-sol/=lib/diesis-sol/src/` to `remappings.txt`.
 Application consumers use the committed bindings; the full contracts checkout
 is needed for regeneration.
+
+The [JavaScript route/action matrix](diesis-js/docs/route-action-matrix.md)
+separates EVM, native DAG, sponsored relay and direct precompile methods, versions,
+identities and required authoritative reads. Runtime diagnostics and generated
+bindings do not establish action eligibility. The local JavaScript and Python
+Names helpers observe owner, expiry, resolver, epoch and recipient at one checked
+block. Signed-action error helpers retain unknown admission and reconcile the
+original identity. Other language SDKs do not gain these helpers by association.
+See each language guide for clean prebuilt consumer checks and the exact package
+compatibility record; fixture reads do not qualify a deployed network.
 
 ## Chain definitions and addresses
 
