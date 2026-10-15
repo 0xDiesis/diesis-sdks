@@ -139,6 +139,21 @@ Generated bindings come from artifacts built from the Diesis contracts source.
 Do not substitute hand-maintained ABI JSON files or edit generated code by hand.
 Chain and address changes also require updating canonical data and its consumers.
 
+The current generated source uses contracts
+`ef995163891c0469a7fa09a89a6e66c1705a7fe4`, solc
+`0.8.35+commit.47b9dedd`, and abi-typegen `0.8.0`.
+[contracts-provenance.json](contracts-provenance.json) records the exact source
+revision and normalized ABI hashes for all 45 artifact inputs. Each application
+SDK selects the public contracts supported by its generator; q exposes event
+decoding rather than transaction methods.
+
+Session activation requires key acceptance followed by principal authorization
+with identical terms. The TypeScript helpers expose both operations explicitly.
+The current contracts do not expose bound-session V3 submission, so that
+TypeScript submission helper rejects before signing or sending. Offline codecs
+remain available. These generated source updates do not publish a package or
+qualify a deployed network.
+
 In the full `0xdiesis` workspace, the repositories are siblings:
 
 ```text
