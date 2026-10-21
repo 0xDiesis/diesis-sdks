@@ -83,7 +83,7 @@ git submodule update --init --recursive -- diesis-js
 Applications can install an SDK directly from its repository. The JavaScript and
 Python commands below select existing immutable release revisions; the newer
 local Names/error helpers require their reviewed prebuilt tarball or wheel until
-publication. Use Node.js 24.16.0 or newer and pnpm 12.6.0 for JavaScript. Follow each
+publication. Use Node.js 26.12.1 or newer and pnpm 12.6.0 for JavaScript. Follow each
 SDK's toolchain guide and use authenticated Git access where required. The
 Solidity placeholder must be replaced with its independently selected revision.
 
