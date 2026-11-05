@@ -4,9 +4,9 @@
   "contractsRevision": "17f837ac61c4e1088fb4acbb95e45d6f1d7b8e9d",
   "compilerVersion": "0.8.38+commit.e7a91fc7.solar.0.3.0",
   "generator": {
-    "version": "abi-typegen 0.8.0",
-    "sourceCommit": "66d6e86e8aa6ebc06b22ebf8355cbaea256f0502",
-    "packageIntegrity": "sha512-Kcamsoy2aRv4R3NYl6moleJa8fWdApyAgtaxZjKci0kaU66WYMuzizf9HYnrvBmQvUBru8sNtAXMI0F++om4fg=="
+    "version": "abi-typegen 0.9.1",
+    "sourceCommit": "9d9b8c38ce8bfdb12e29222ded734d7758321efb",
+    "packageIntegrity": "sha512-Et+WDzyg+NWH0RFtOUqRoa5leK44PJnSAXPZ0bVTQjZqEydqBd5Z9XQu0Sv002PFVMs1BzfT3gsP4zkMoMGK7A=="
   },
   "contracts": [
     {

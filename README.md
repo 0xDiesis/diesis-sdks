@@ -141,7 +141,7 @@ Chain and address changes also require updating canonical data and its consumers
 
 The current generated source uses contracts
 `17f837ac61c4e1088fb4acbb95e45d6f1d7b8e9d`, Solar
-`0.3.0` (Solidity `0.8.38+commit.e7a91fc7.solar.0.3.0`), and abi-typegen `0.8.0`.
+`0.3.0` (Solidity `0.8.38+commit.e7a91fc7.solar.0.3.0`), and abi-typegen `0.9.1`.
 [contracts-provenance.json](contracts-provenance.json) records the exact source
 revision and normalized ABI hashes for all 45 artifact inputs. Each application
 SDK selects the public contracts supported by its generator; q exposes event
@@ -197,6 +197,11 @@ All SDKs should use the latest published
 Pin the selected release exactly so the same inputs reproduce the same bindings.
 Upgrade the pins and regenerate together when adopting a new release; do not
 resolve a floating `latest` version during builds.
+
+abi-typegen 0.9.1 orders numbered overload aliases by canonical selector.
+Generators pass the original compiler artifacts directly; local overload-order
+guards are no longer required. The exact 0.9.1 release-age exception was
+explicitly approved by the package owner.
 
 TypeScript and Python own their package pins and generator provenance checks:
 [TypeScript](diesis-js/package.json) and [Python](diesis-py/package.json).
