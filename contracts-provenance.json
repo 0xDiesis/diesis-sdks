@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "contractsRepository": "https://github.com/0xDiesis/diesis-contracts",
-  "contractsRevision": "ef995163891c0469a7fa09a89a6e66c1705a7fe4",
-  "compilerVersion": "0.8.35+commit.47b9dedd",
+  "contractsRevision": "17f837ac61c4e1088fb4acbb95e45d6f1d7b8e9d",
+  "compilerVersion": "0.8.38+commit.e7a91fc7.solar.0.3.0",
   "generator": {
     "version": "abi-typegen 0.8.0",
     "sourceCommit": "66d6e86e8aa6ebc06b22ebf8355cbaea256f0502",
@@ -92,12 +92,12 @@
     {
       "name": "DiesisStaking",
       "source": "src/DiesisStaking.sol",
-      "abiSha256": "926cfc0c438066832266da21d172b24c5038fe1f4dd33d004e0b628e497bb6a5"
+      "abiSha256": "d52d979e351683155e2ae3de8fb0ec04e09ae03cffa28cf49faa493de5e77581"
     },
     {
       "name": "DiesisEpochAuthority",
       "source": "src/epoch/DiesisEpochAuthority.sol",
-      "abiSha256": "4936a676b031b8e8dd2fda6752cda5195ab7d5ba7d1a3854ded7bf2ac35e0272"
+      "abiSha256": "602756abb2f22ba3cfd65d272fb11e76e6e98c5653dcdeb1383291f4b4bed7fd"
     },
     {
       "name": "DiesisPatron",

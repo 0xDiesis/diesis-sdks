@@ -140,8 +140,8 @@ Do not substitute hand-maintained ABI JSON files or edit generated code by hand.
 Chain and address changes also require updating canonical data and its consumers.
 
 The current generated source uses contracts
-`ef995163891c0469a7fa09a89a6e66c1705a7fe4`, solc
-`0.8.35+commit.47b9dedd`, and abi-typegen `0.8.0`.
+`17f837ac61c4e1088fb4acbb95e45d6f1d7b8e9d`, Solar
+`0.3.0` (Solidity `0.8.38+commit.e7a91fc7.solar.0.3.0`), and abi-typegen `0.8.0`.
 [contracts-provenance.json](contracts-provenance.json) records the exact source
 revision and normalized ABI hashes for all 45 artifact inputs. Each application
 SDK selects the public contracts supported by its generator; q exposes event
