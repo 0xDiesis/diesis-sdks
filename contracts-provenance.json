@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "contractsRepository": "https://github.com/0xDiesis/diesis-contracts",
-  "contractsRevision": "17f837ac61c4e1088fb4acbb95e45d6f1d7b8e9d",
+  "contractsRevision": "f0f9df1408efcf9bd8b996266ec91504e5e1e372",
   "compilerVersion": "0.8.38+commit.e7a91fc7.solar.0.3.0",
   "generator": {
-    "version": "abi-typegen 0.9.1",
-    "sourceCommit": "9d9b8c38ce8bfdb12e29222ded734d7758321efb",
-    "packageIntegrity": "sha512-Et+WDzyg+NWH0RFtOUqRoa5leK44PJnSAXPZ0bVTQjZqEydqBd5Z9XQu0Sv002PFVMs1BzfT3gsP4zkMoMGK7A=="
+    "version": "abi-typegen 0.9.3",
+    "sourceCommit": "fbf6f7468c952863f2318a450520ac0933cbd65d",
+    "packageIntegrity": "sha512-65WfWmjtwff3cP031oVM1ARmyFmeCuLvTPOjHzUccVYA+4nmbym5BzARO8oLkvhTQIwsXVDJlx1CZuOItdUHkg=="
   },
   "contracts": [
     {
@@ -22,12 +22,12 @@
     {
       "name": "IDiesisSpotBook",
       "source": "src/interfaces/exchange/IDiesisSpotBook.sol",
-      "abiSha256": "94971ee73c8bdbff4955fccba00d089b0f7bc0dc133b92e0f8daf801a96b45ba"
+      "abiSha256": "9fb6d8775769928aabc1d307551d6c2dea6a5422cdc36c1fad0ae48b89beed28"
     },
     {
       "name": "IDiesisPerpsBook",
       "source": "src/interfaces/exchange/IDiesisPerpsBook.sol",
-      "abiSha256": "946b7da3ce922133799b627fbb06591966238c6da7dc0707b33777e532197a99"
+      "abiSha256": "54e044c36613828670fb84319fdd7ff5feeea7299a7c3b188117954f1cfe0f11"
     },
     {
       "name": "IDiesisMargin",
@@ -37,7 +37,7 @@
     {
       "name": "IDiesisMarkets",
       "source": "src/interfaces/exchange/IDiesisMarkets.sol",
-      "abiSha256": "20e13b8f1c87db2bb080c41c0485ee37673d389605722f24b3d1f0d0c4ad02dd"
+      "abiSha256": "e53882da70c716b1f448b1fc792498bae1eeb1c5ab6a524e830683f317543edc"
     },
     {
       "name": "IDiesisStateWriter",
@@ -92,17 +92,17 @@
     {
       "name": "DiesisStaking",
       "source": "src/DiesisStaking.sol",
-      "abiSha256": "d52d979e351683155e2ae3de8fb0ec04e09ae03cffa28cf49faa493de5e77581"
+      "abiSha256": "20eff9a779c29621d97b46cac29c9d5dea7c10737eb3a250f9effd2ec380e631"
     },
     {
       "name": "DiesisEpochAuthority",
       "source": "src/epoch/DiesisEpochAuthority.sol",
-      "abiSha256": "602756abb2f22ba3cfd65d272fb11e76e6e98c5653dcdeb1383291f4b4bed7fd"
+      "abiSha256": "953ed3c4c83f1c02a8b90d2924527dbdbb3e28c68435cc4b4bbcce9fd3fa95ee"
     },
     {
       "name": "DiesisPatron",
       "source": "src/DiesisPatron.sol",
-      "abiSha256": "bb77de88e2f832068c3efc6282ec080422a49b9dd25adee6b1d8c6b915f12f45"
+      "abiSha256": "f7c524989dc1c00295cd5ebb292b12e9329b25ee3228259814c69070a53dc5ac"
     },
     {
       "name": "DiesisConfig",
@@ -177,12 +177,12 @@
     {
       "name": "IDiesisNameRegistry",
       "source": "src/interfaces/names/IDiesisNameRegistry.sol",
-      "abiSha256": "c1718063743e6ec92d72b095313d27e9d0e9b71c4fe3823c335f858fe3f6613f"
+      "abiSha256": "e0f542231fd7e01a74e824ea654cac0d90156d63573a8ad98d96e696994dccfc"
     },
     {
       "name": "IDiesisBaseRegistrar",
       "source": "src/interfaces/names/IDiesisBaseRegistrar.sol",
-      "abiSha256": "615b4251d1f10d6acc092a4ef25e62b417b62f02446975ff016e1d1e931b80e8"
+      "abiSha256": "67c63e902a7fdb39a8ba0ec42a21945739b7dfbb18736f052d24ee7faa269b46"
     },
     {
       "name": "IDiesisPublicResolver",
@@ -207,12 +207,12 @@
     {
       "name": "DiesisNameRegistry",
       "source": "src/names/DiesisNameRegistry.sol",
-      "abiSha256": "6bd7b5bdf26ad0460fe09b568f7494c208d3cb81f3404792b3ec087dba09cd5b"
+      "abiSha256": "5850c76dabebd8bdcec045cca2c87281ece74fa220dd5840dc26e76fb8539f4d"
     },
     {
       "name": "DiesisBaseRegistrar",
       "source": "src/names/DiesisBaseRegistrar.sol",
-      "abiSha256": "6b66aacc80d7841dfb280f59b02cfd9d633dd871c91314457f8a93f7fece0cc8"
+      "abiSha256": "c66c7fdd869e1c33597451a04bfe4050ae3bf6a8ee11cb88e1949e536a1add0b"
     },
     {
       "name": "DiesisPublicResolver",
@@ -233,6 +233,16 @@
       "name": "DiesisNamePolicy",
       "source": "src/names/DiesisNamePolicy.sol",
       "abiSha256": "0a370b5bb15a6352815739a481ee4d0d1d34bfe43bc04310e4db450d4fe7b9f0"
+    },
+    {
+      "name": "DiesisSecurityAccount",
+      "source": "src/accounts/DiesisSecurityAccount.sol",
+      "abiSha256": "0d1bb7f5d18d81de6222f3ff11045479061c3c8176e0a8918442e9d5ef6eb1e1"
+    },
+    {
+      "name": "DiesisSecurityAccountFactory",
+      "source": "src/accounts/DiesisSecurityAccountFactory.sol",
+      "abiSha256": "c9301a2548b79a30c47eb3080ca02eda23abbf900b5fd62d2036204ae7a7455c"
     }
   ]
 }
